@@ -1,15 +1,18 @@
 ---
 layout: page
-title: About me
-subtitle: Why you'd want to go on a date with me
+title: Sobre mim
+subtitle: Perfil Pessoal e Profissional
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+My name is Johnny. I have the following qualities:
 
-- I rock a great mustache
-- I'm extremely loyal to my family
+- I'm a marathonist, cyclist and now dad;
+- I'm extremely loyal to my family and my principles;
+- I like to listening reggae, rock and hip-hop music;
+- Linux Enthusiast and SysAdmin since 2008;
 
-What else do you need?
+“So what are we going to say about these things? If God is for us, who is against us?”
+Romans 8:31
 
 ### My story
 
