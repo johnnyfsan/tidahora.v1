@@ -24,7 +24,7 @@ navbar-links:
  # Resources:
  #   - Beautiful Jekyll: "https://beautifuljekyll.com"
  #   - Learn markdown: "https://www.markdowntutorial.com/"
-  LinkedIn: "https://linkedin/in/johnnyferreiradossantos"
+  LinkedIn: "https://linkedin.com/in/johnnyferreiradossantos"
 
 ################
 # --- Logo --- #
@@ -243,7 +243,7 @@ date_format: "%B %-d, %Y"
 #################################################################################
 
 # Output options (more information on Jekyll's site)
-timezone: "America/Sao Paulo"
+timezone: "America/Sao_Paulo"
 markdown: kramdown
 highlighter: rouge
 permalink: /:title/
