@@ -2,7 +2,6 @@
 layout: post
 title: Como Funciona o IAM na AWS
 subtitle:
-cover-img: /assets/img/aws-iam.png
 thumbnail-img: /assets/img/aws-iam.png
 share-img: /assets/img/aws-iam.png
 tags: [aws, iam, devops, cloud, amazon web services]
@@ -10,7 +9,7 @@ tags: [aws, iam, devops, cloud, amazon web services]
 
 # Como Funciona o IAM na AWS
 
-Olá pessoal, hoje vamos falar um pouco sobre o **IAM**(https://aws.amazon.com/pt/iam/){:target="_blank"} na Amazon Web Services(https://aws.amazon.com){:target="_blank"}.
+Olá pessoal, hoje vamos falar um pouco sobre o **IAM** na Amazon Web Services.
 O **IAM** (Identity and Access Management) na AWS (Amazon Web Services) é um serviço que permite que você gerencie o acesso dos usuários e recursos aos serviços da AWS. O IAM ajuda a garantir que apenas as pessoas certas tenham acesso aos recursos certos na hora certa. Neste artigo, vamos explorar como o IAM funciona na AWS.
 
 # Conceitos básicos do IAM
