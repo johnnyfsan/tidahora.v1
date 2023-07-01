@@ -1,19 +1,18 @@
 # Como Funciona o IAM na AWS
 
-Olá pessoal, hoje vamos falar um pouco sobre o **IAM** na Amazon Web Services(https://aws.amazon.com){:target="_blank"}.
-O IAM (Identity and Access Management) na AWS (Amazon Web Services) é um serviço que permite que você gerencie o acesso dos usuários e recursos aos serviços da AWS. O IAM ajuda a garantir que apenas as pessoas certas tenham acesso aos recursos certos na hora certa. Neste artigo, vamos explorar como o IAM funciona na AWS.
+Olá pessoal, hoje vamos falar um pouco sobre o **IAM**(https://aws.amazon.com/pt/iam/){:target="_blank"} na Amazon Web Services(https://aws.amazon.com){:target="_blank"}.
+O **IAM** (Identity and Access Management) na AWS (Amazon Web Services) é um serviço que permite que você gerencie o acesso dos usuários e recursos aos serviços da AWS. O IAM ajuda a garantir que apenas as pessoas certas tenham acesso aos recursos certos na hora certa. Neste artigo, vamos explorar como o IAM funciona na AWS.
 
 # Conceitos básicos do IAM
 
 Antes de mergulharmos nos detalhes do IAM, vamos revisar alguns conceitos básicos:
 
-Usuários: uma entidade que representa uma pessoa ou um serviço que interage com a AWS.
-Grupos: uma coleção de usuários que têm as mesmas permissões.
-Funções: uma entidade que define permissões para acessar recursos específicos na AWS. As funções são usadas para conceder permissões temporárias para usuários ou serviços que precisam acessar recursos da AWS.
-Políticas: um documento que define as permissões que são concedidas aos usuários, grupos ou funções. As políticas podem ser anexadas a usuários, grupos ou funções e definem quais ações são permitidas ou negadas em recursos específicos da AWS.
+**Usuários:** uma entidade que representa uma pessoa ou um serviço que interage com a AWS.
+**Funções:** uma entidade que define permissões para acessar recursos específicos na AWS. As funções são usadas para conceder **permissões** temporárias para usuários ou serviços que precisam acessar recursos da AWS.
+**Políticas:** um documento que define as permissões que são concedidas aos usuários, grupos ou funções. As políticas podem ser anexadas a usuários, grupos ou funções e definem quais ações são permitidas ou negadas em recursos específicos da AWS.
 Como funciona o IAM
 
-O IAM funciona com base em três elementos principais: usuários, grupos e políticas. Primeiro, você cria usuários e grupos no IAM. Em seguida, você adiciona políticas a esses usuários e grupos para definir quais recursos eles podem acessar e que ações podem realizar nesses recursos. Por fim, você concede ou revoga acesso aos recursos da AWS, adicionando ou removendo usuários dos grupos.
+O **IAM** funciona com base em três elementos principais: usuários, grupos e políticas. Primeiro, você cria usuários e grupos no IAM. Em seguida, você adiciona políticas a esses usuários e grupos para definir quais recursos eles podem acessar e que ações podem realizar nesses recursos. Por fim, você concede ou revoga acesso aos recursos da AWS, adicionando ou removendo usuários dos grupos.
 
 # Criando Usuários e Grupos
 
@@ -43,4 +42,4 @@ Aqui estão alguns exemplos de como o IAM pode ser usado na AWS:
 
 # Conclusão
 
-O IAM é um serviço essencial para gerenciar o acesso aos recursos da AWS. Ele ajuda a garantir que apenas as pessoas certas tenham acesso aos recursos certos na hora certa. Com o IAM, você pode criar usuários e grupos, adicionar políticas para definir permissões e conceder ou revogar acesso aos recursos da AWS. Além disso, o IAM oferece uma variedade de recursos avançados, como MFA (autenticação de dois fatores), gerenciamento de chaves e políticas de condições para garantir a segurança e o controle de acesso aos recursos da AWS.
+O **IAM** é um serviço essencial para gerenciar o acesso aos recursos da AWS. Ele ajuda a garantir que apenas as pessoas certas tenham acesso aos recursos certos na hora certa. Com o IAM, você pode criar usuários e grupos, adicionar políticas para definir permissões e conceder ou revogar acesso aos recursos da AWS. Além disso, o IAM oferece uma variedade de recursos avançados, como MFA (autenticação de dois fatores), gerenciamento de chaves e políticas de condições para garantir a segurança e o controle de acesso aos recursos da AWS.
