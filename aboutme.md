@@ -4,16 +4,15 @@ title: Sobre mim
 subtitle: Perfil Pessoal e Profissional
 ---
 
-My name is Johnny. I have the following qualities:
+Meu nome é Johnny:
 
-- I'm a marathonist, cyclist and now dad;
-- I'm extremely loyal to my family and my principles;
-- I like to listening reggae, rock and hip-hop music;
-- Linux Enthusiast and SysAdmin since 2008;
+- Sou maratonista, ciclista e agora sou pai;
+- Curto Reggae, Rap, Hip-Hop e Rock;
+- Sou entusiasta Linux e SysAdmin de coração desde 2008;
 
-“So what are we going to say about these things? If God is for us, who is against us?”
-Romans 8:31
+O próprio Senhor irá à sua frente e estará com você; Ele nunca o deixará, nunca o abandonará. Não tenha medo! Não se desanime! 😉
+Deuteronômio 31:8
 
-### My story
+### Perfil Profissional
 
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](https://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+Confira meu perfil no [LinkedIn](https://linkedin.com/in/johnnyferreiradossantos).
