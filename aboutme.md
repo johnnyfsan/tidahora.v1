@@ -10,9 +10,10 @@ Meu nome é Johnny:
 - Curto Reggae, Rap, Hip-Hop e Rock;
 - Sou entusiasta Linux e SysAdmin de coração desde 2008;
 
-O próprio Senhor irá à sua frente e estará com você; Ele nunca o deixará, nunca o abandonará. Não tenha medo! Não se desanime! 😉
+"O próprio Senhor irá à sua frente e estará com você; Ele nunca o deixará, nunca o abandonará. Não tenha medo! Não se desanime!" 😉
+
 Deuteronômio 31:8
 
 ### Perfil Profissional
 
-Confira meu perfil no [LinkedIn](https://linkedin.com/in/johnnyferreiradossantos).
+Confira meu perfil no [LinkedIn](https://linkedin.com/in/johnnyferreiradossantos){:target="_blank"}.
