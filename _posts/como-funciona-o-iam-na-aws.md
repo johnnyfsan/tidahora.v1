@@ -1,3 +1,13 @@
+---
+layout: post
+title: Como Funciona o IAM na AWS
+subtitle:
+cover-img: /assets/img/aws-iam.png
+thumbnail-img: /assets/img/aws-iam.png
+share-img: /assets/img/aws-iam.png
+tags: [aws, iam, devops, cloud, amazon web services]
+---
+
 # Como Funciona o IAM na AWS
 
 Olá pessoal, hoje vamos falar um pouco sobre o **IAM**(https://aws.amazon.com/pt/iam/){:target="_blank"} na Amazon Web Services(https://aws.amazon.com){:target="_blank"}.
