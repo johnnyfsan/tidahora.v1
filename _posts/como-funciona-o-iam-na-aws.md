@@ -1,6 +1,6 @@
 # Como Funciona o IAM na AWS
 
-Olá pessoal, hoje vamos falar um pouco sobre o IAM na Amazon Web Services.
+Olá pessoal, hoje vamos falar um pouco sobre o **IAM** na Amazon Web Services(https://aws.amazon.com){:target="_blank"}.
 O IAM (Identity and Access Management) na AWS (Amazon Web Services) é um serviço que permite que você gerencie o acesso dos usuários e recursos aos serviços da AWS. O IAM ajuda a garantir que apenas as pessoas certas tenham acesso aos recursos certos na hora certa. Neste artigo, vamos explorar como o IAM funciona na AWS.
 
 # Conceitos básicos do IAM
@@ -15,23 +15,23 @@ Como funciona o IAM
 
 O IAM funciona com base em três elementos principais: usuários, grupos e políticas. Primeiro, você cria usuários e grupos no IAM. Em seguida, você adiciona políticas a esses usuários e grupos para definir quais recursos eles podem acessar e que ações podem realizar nesses recursos. Por fim, você concede ou revoga acesso aos recursos da AWS, adicionando ou removendo usuários dos grupos.
 
-Criando Usuários e Grupos
+# Criando Usuários e Grupos
 
 Para começar, você precisa criar usuários e grupos no IAM. Você pode criar um usuário para cada pessoa ou serviço que precisa acessar a AWS. Os usuários têm credenciais de login (nome de usuário e senha) que podem ser usadas para acessar a AWS. Para criar um usuário, você precisa especificar um nome de usuário, um ID e uma senha para o usuário.
 
-Os grupos são usados para agrupar usuários que têm as mesmas permissões. Por exemplo, você pode criar um grupo chamado "Administradores" e adicionar usuários a esse grupo que têm permissão para gerenciar todos os recursos na AWS. Para criar um grupo, você precisa especificar um nome para o grupo.
+Os grupos são usados para agrupar usuários que têm as mesmas permissões. Por exemplo, você pode criar um grupo chamado **"Administradores"** e adicionar usuários a esse grupo que têm permissão para gerenciar todos os recursos na AWS. Para criar um grupo, você precisa especificar um nome para o grupo.
 
 # Adicionando Políticas
 
 Depois de criar usuários e grupos, você precisa adicionar políticas a esses usuários e grupos para definir quais recursos eles podem acessar e que ações podem realizar nesses recursos. As políticas são documentos JSON que definem as permissões que são concedidas aos usuários, grupos ou funções.
 
-Existem duas maneiras de criar políticas no IAM:
+# Existem duas maneiras de criar políticas no IAM:
 
-Criando políticas personalizadas: você pode criar suas próprias políticas personalizadas para definir permissões específicas.
+- Criando políticas personalizadas: você pode criar suas próprias políticas personalizadas para definir permissões específicas.
 Usando políticas gerenciadas: a AWS fornece políticas gerenciadas que você pode usar para definir permissões comuns. As políticas gerenciadas são mantidas pela AWS e são atualizadas automaticamente para refletir as alterações nos serviços da AWS.
 Concedendo ou Revogando Acesso
 
-Depois de criar usuários, grupos e políticas, você pode conceder ou revogar acesso aos recursos da AWS. Você pode fazer isso adicionando ou removendo usuários dos grupos. Por exemplo, se você quiser conceder acesso aos recursos da AWS para um novo funcionário, basta adicioná-lo ao grupo apropriado que já possui as políticas necessárias para acessar esses recursos. Se um funcionário sair da empresa, basta removê-lo do grupo para revogar seu acesso.
+- Depois de criar usuários, grupos e políticas, você pode conceder ou revogar acesso aos recursos da AWS. Você pode fazer isso adicionando ou removendo usuários dos grupos. Por exemplo, se você quiser conceder acesso aos recursos da AWS para um novo funcionário, basta adicioná-lo ao grupo apropriado que já possui as políticas necessárias para acessar esses recursos. Se um funcionário sair da empresa, basta removê-lo do grupo para revogar seu acesso.
 
 # Exemplos de uso do IAM
 
