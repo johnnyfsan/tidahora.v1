@@ -84,6 +84,8 @@ share-links-active:
   twitter: true
   facebook: true
   linkedin: true
+  whatsapp: true
+  telegram: true
   vk: false
 
 # How to display the link to your website in the footer
