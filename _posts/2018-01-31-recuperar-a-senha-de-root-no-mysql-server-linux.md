@@ -40,19 +40,19 @@ A primeira coisa a se fazer para recuperar a senha do “root” é parar o serv
 Em ambientes baseados em Debian:
 
 ```
-<pre class="lang:sh decode:true ">service mysql stop
+service mysql stop
 ```
 
 Para CentOS 6:
 
 ```
-<pre class="lang:sh decode:true">/etc/init.d/mysqld stop
+/etc/init.d/mysqld stop
 ```
 
 Já no CentOS 7 a sintaxe para parar o serviço muda:
 
 ```
-<pre class="lang:sh decode:true ">systemctl stop mysqld
+systemctl stop mysqld
 ```
 
 O próximo passo é adicionar um parâmetro ao arquivo de configuração do MySQL, o “my.cnf”:
@@ -60,19 +60,19 @@ O próximo passo é adicionar um parâmetro ao arquivo de configuração do MySQ
 Em ambientes baseados no Debian, pode ser que o arquivo principal esteja em “/etc/mysql/”
 
 ```
-<pre class="lang:sh decode:true ">vi /etc/mysql/my.cnf
+vi /etc/mysql/my.cnf
 ```
 
 Já no CentOS é direto na estrutura do “/etc”
 
 ```
-<pre class="lang:sh decode:true">vi /etc/my.cnf
+vi /etc/my.cnf
 ```
 
 Insira a linha abaixo no final do arquivo:
 
 ```
-<pre class="lang:sh decode:true ">skip-grant-table
+skip-grant-table
 ```
 
 Em seguida, após salvar o arquivo com o parâmetro acima adicionado, inicie novamente o serviço do MySQL.
@@ -80,31 +80,31 @@ Em seguida, após salvar o arquivo com o parâmetro acima adicionado, inicie nov
 Debian:
 
 ```
-<pre class="lang:sh decode:true">service mysql start
+service mysql start
 ```
 
 CentOS 6:
 
 ```
-<pre class="lang:sh decode:true">/etc/init.d/mysqld start
+/etc/init.d/mysqld start
 ```
 
 CentOS 7:
 
 ```
-<pre class="lang:sh decode:true">systemctl start mysqld
+systemctl start mysqld
 ```
 
 Agora vamos logar no console do MySQL, sem o parâmetro “-p” responsável pela autenticação por senha:
 
 ```
-<pre class="lang:sh decode:true ">mysql -u root
+mysql -u root
 ```
 
 Após logar no console do MySQL, execute o processo abaixo para recuperar a senha do “root”.
 
 ```
-<pre class="lang:mysql decode:true ">mysql> USE mysql;
+mysql> USE mysql;
 mysql> UPDATE user set password=PASSWORD('senha') WHERE user='root';
 mysql> FLUSH PRIVILEGES;
 mysql> quit
@@ -115,19 +115,19 @@ Agora edite novamente o arquivo “my.cnf” e comente ou exclua a linha com o p
 Debian:
 
 ```
-<pre class="lang:sh decode:true">service mysql restart
+service mysql restart
 ```
 
 CentOS 6:
 
 ```
-<pre class="lang:sh decode:true">/etc/init.d/mysqld restart
+/etc/init.d/mysqld restart
 ```
 
 CentOS 7:
 
 ```
-<pre class="lang:sh decode:true ">systemctl restart mysqld
+systemctl restart mysqld
 ```
 
 Agora pode logar novamente com o root e a senha que você definiu.
