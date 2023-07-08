@@ -4,10 +4,8 @@ date: '2022-04-15T20:54:14-03:00'
 status: publish
 permalink: /terraform-o-que-e-e-como-comecar-provisionando-uma-instancia-linux-no-gcp
 author: 'Johnny Ferreira'
-excerpt: ''
-type: post
-id: 2079
-thumbnail: ../uploads/2022/04/terraformgcp.png
+thumbnail-img: /uploads/2022/04/terraformgcp.png
+share-img: /uploads/2022/04/terraformgcp.png
 category:
     - DevOps
     - Terraform
@@ -15,12 +13,9 @@ tag:
     - 'aprender terraform'
     - 'instancia linux no gcp com terraform'
     - 'o que é terraform'
-    - terraform
+    - 'terraform'
     - 'terraform gcp'
     - 'terraform google cloud platform'
-post_format: []
-classic-editor-remember:
-    - block-editor
 ---
 - - - - - -
 
