@@ -1,0 +1,408 @@
+2019-09-21T16:05:41+00:00 CRITICAL Uncaught Error: Class 'TitanFramework' not found in /home2/tidahoracom/public_html/wp-content/plugins/adblock-notify-by-bweb/adblock-notify.php:96
+Stack trace:
+#0 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(286): an_enqueue_an_sripts('')
+#1 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /home2/tidahoracom/public_html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#3 /home2/tidahoracom/public_html/wp-includes/script-loader.php(2539): do_action('wp_enqueue_scri...')
+#4 /home2/tidahoracom/public_html/wp-includes/class-wp-customize-manager.php(455): wp_enqueue_scripts()
+#5 /home2/tidahoracom/public_html/wp-includes/class-wp-customize-manager.php(552): WP_Customize_Manager->wp_die(0, 'Non-existent ch...')
+#6 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(286): WP_Customize_Manager->setup_theme('')
+#7 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#8 /home2/tidahora
+
+2019-09-21T16:10:50+00:00 CRITICAL Uncaught Error: Class 'TitanFramework' not found in /home2/tidahoracom/public_html/wp-content/plugins/adblock-notify-by-bweb/adblock-notify.php:96
+Stack trace:
+#0 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(286): an_enqueue_an_sripts('')
+#1 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /home2/tidahoracom/public_html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#3 /home2/tidahoracom/public_html/wp-includes/script-loader.php(2539): do_action('wp_enqueue_scri...')
+#4 /home2/tidahoracom/public_html/wp-includes/class-wp-customize-manager.php(455): wp_enqueue_scripts()
+#5 /home2/tidahoracom/public_html/wp-includes/class-wp-customize-manager.php(571): WP_Customize_Manager->wp_die(-1, 'Sorry, you are ...')
+#6 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(286): WP_Customize_Manager->setup_theme('')
+#7 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#8 /home2/tidahor
+
+2019-09-21T16:11:27+00:00 CRITICAL Uncaught Error: Class 'TitanFramework' not found in /home2/tidahoracom/public_html/wp-content/plugins/adblock-notify-by-bweb/adblock-notify.php:96
+Stack trace:
+#0 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(286): an_enqueue_an_sripts('')
+#1 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /home2/tidahoracom/public_html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#3 /home2/tidahoracom/public_html/wp-includes/script-loader.php(2539): do_action('wp_enqueue_scri...')
+#4 /home2/tidahoracom/public_html/wp-includes/class-wp-customize-manager.php(455): wp_enqueue_scripts()
+#5 /home2/tidahoracom/public_html/wp-includes/class-wp-customize-manager.php(552): WP_Customize_Manager->wp_die(0, 'Non-existent ch...')
+#6 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(286): WP_Customize_Manager->setup_theme('')
+#7 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#8 /home2/tidahora
+
+2019-09-21T16:11:50+00:00 CRITICAL Uncaught Error: Class 'TitanFramework' not found in /home2/tidahoracom/public_html/wp-content/plugins/adblock-notify-by-bweb/adblock-notify.php:96
+Stack trace:
+#0 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(286): an_enqueue_an_sripts('')
+#1 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /home2/tidahoracom/public_html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#3 /home2/tidahoracom/public_html/wp-includes/script-loader.php(2539): do_action('wp_enqueue_scri...')
+#4 /home2/tidahoracom/public_html/wp-includes/class-wp-customize-manager.php(455): wp_enqueue_scripts()
+#5 /home2/tidahoracom/public_html/wp-includes/class-wp-customize-manager.php(571): WP_Customize_Manager->wp_die(-1, 'Sorry, you are ...')
+#6 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(286): WP_Customize_Manager->setup_theme('')
+#7 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#8 /home2/tidahor
+
+2019-09-21T16:12:28+00:00 CRITICAL Uncaught Error: Class 'TitanFramework' not found in /home2/tidahoracom/public_html/wp-content/plugins/adblock-notify-by-bweb/adblock-notify.php:96
+Stack trace:
+#0 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(286): an_enqueue_an_sripts('')
+#1 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /home2/tidahoracom/public_html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#3 /home2/tidahoracom/public_html/wp-includes/script-loader.php(2539): do_action('wp_enqueue_scri...')
+#4 /home2/tidahoracom/public_html/wp-includes/class-wp-customize-manager.php(455): wp_enqueue_scripts()
+#5 /home2/tidahoracom/public_html/wp-includes/class-wp-customize-manager.php(552): WP_Customize_Manager->wp_die(0, 'Non-existent ch...')
+#6 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(286): WP_Customize_Manager->setup_theme('')
+#7 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#8 /home2/tidahora
+
+2019-09-21T16:12:50+00:00 CRITICAL Uncaught Error: Class 'TitanFramework' not found in /home2/tidahoracom/public_html/wp-content/plugins/adblock-notify-by-bweb/adblock-notify.php:96
+Stack trace:
+#0 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(286): an_enqueue_an_sripts('')
+#1 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /home2/tidahoracom/public_html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#3 /home2/tidahoracom/public_html/wp-includes/script-loader.php(2539): do_action('wp_enqueue_scri...')
+#4 /home2/tidahoracom/public_html/wp-includes/class-wp-customize-manager.php(455): wp_enqueue_scripts()
+#5 /home2/tidahoracom/public_html/wp-includes/class-wp-customize-manager.php(571): WP_Customize_Manager->wp_die(-1, 'Sorry, you are ...')
+#6 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(286): WP_Customize_Manager->setup_theme('')
+#7 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#8 /home2/tidahor
+
+2019-09-21T16:13:14+00:00 CRITICAL Uncaught Error: Class 'TitanFramework' not found in /home2/tidahoracom/public_html/wp-content/plugins/adblock-notify-by-bweb/adblock-notify.php:96
+Stack trace:
+#0 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(286): an_enqueue_an_sripts('')
+#1 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /home2/tidahoracom/public_html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#3 /home2/tidahoracom/public_html/wp-includes/script-loader.php(2539): do_action('wp_enqueue_scri...')
+#4 /home2/tidahoracom/public_html/wp-includes/class-wp-customize-manager.php(455): wp_enqueue_scripts()
+#5 /home2/tidahoracom/public_html/wp-includes/class-wp-customize-manager.php(552): WP_Customize_Manager->wp_die(0, 'Non-existent ch...')
+#6 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(286): WP_Customize_Manager->setup_theme('')
+#7 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#8 /home2/tidahora
+
+2019-09-21T16:13:28+00:00 CRITICAL Uncaught Error: Class 'TitanFramework' not found in /home2/tidahoracom/public_html/wp-content/plugins/adblock-notify-by-bweb/adblock-notify.php:96
+Stack trace:
+#0 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(286): an_enqueue_an_sripts('')
+#1 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /home2/tidahoracom/public_html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#3 /home2/tidahoracom/public_html/wp-includes/script-loader.php(2539): do_action('wp_enqueue_scri...')
+#4 /home2/tidahoracom/public_html/wp-includes/class-wp-customize-manager.php(455): wp_enqueue_scripts()
+#5 /home2/tidahoracom/public_html/wp-includes/class-wp-customize-manager.php(552): WP_Customize_Manager->wp_die(0, 'Non-existent ch...')
+#6 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(286): WP_Customize_Manager->setup_theme('')
+#7 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#8 /home2/tidahora
+
+2019-09-21T16:13:41+00:00 CRITICAL Uncaught Error: Class 'TitanFramework' not found in /home2/tidahoracom/public_html/wp-content/plugins/adblock-notify-by-bweb/adblock-notify.php:96
+Stack trace:
+#0 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(286): an_enqueue_an_sripts('')
+#1 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /home2/tidahoracom/public_html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#3 /home2/tidahoracom/public_html/wp-includes/script-loader.php(2539): do_action('wp_enqueue_scri...')
+#4 /home2/tidahoracom/public_html/wp-includes/class-wp-customize-manager.php(455): wp_enqueue_scripts()
+#5 /home2/tidahoracom/public_html/wp-includes/class-wp-customize-manager.php(552): WP_Customize_Manager->wp_die(0, 'Non-existent ch...')
+#6 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(286): WP_Customize_Manager->setup_theme('')
+#7 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#8 /home2/tidahora
+
+2019-09-21T16:13:48+00:00 CRITICAL Uncaught Error: Class 'TitanFramework' not found in /home2/tidahoracom/public_html/wp-content/plugins/adblock-notify-by-bweb/adblock-notify.php:96
+Stack trace:
+#0 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(286): an_enqueue_an_sripts('')
+#1 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /home2/tidahoracom/public_html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#3 /home2/tidahoracom/public_html/wp-includes/script-loader.php(2539): do_action('wp_enqueue_scri...')
+#4 /home2/tidahoracom/public_html/wp-includes/class-wp-customize-manager.php(455): wp_enqueue_scripts()
+#5 /home2/tidahoracom/public_html/wp-includes/class-wp-customize-manager.php(552): WP_Customize_Manager->wp_die(0, 'Non-existent ch...')
+#6 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(286): WP_Customize_Manager->setup_theme('')
+#7 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#8 /home2/tidahora
+
+2019-09-21T16:14:28+00:00 CRITICAL Uncaught Error: Class 'TitanFramework' not found in /home2/tidahoracom/public_html/wp-content/plugins/adblock-notify-by-bweb/adblock-notify.php:96
+Stack trace:
+#0 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(286): an_enqueue_an_sripts('')
+#1 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /home2/tidahoracom/public_html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#3 /home2/tidahoracom/public_html/wp-includes/script-loader.php(2539): do_action('wp_enqueue_scri...')
+#4 /home2/tidahoracom/public_html/wp-includes/class-wp-customize-manager.php(455): wp_enqueue_scripts()
+#5 /home2/tidahoracom/public_html/wp-includes/class-wp-customize-manager.php(552): WP_Customize_Manager->wp_die(0, 'Non-existent ch...')
+#6 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(286): WP_Customize_Manager->setup_theme('')
+#7 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#8 /home2/tidahora
+
+2019-09-21T17:01:56+00:00 CRITICAL Uncaught Error: Class 'TitanFramework' not found in /home2/tidahoracom/public_html/wp-content/plugins/adblock-notify-by-bweb/adblock-notify.php:96
+Stack trace:
+#0 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(286): an_enqueue_an_sripts('')
+#1 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /home2/tidahoracom/public_html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#3 /home2/tidahoracom/public_html/wp-includes/script-loader.php(2539): do_action('wp_enqueue_scri...')
+#4 /home2/tidahoracom/public_html/wp-includes/class-wp-customize-manager.php(455): wp_enqueue_scripts()
+#5 /home2/tidahoracom/public_html/wp-includes/class-wp-customize-manager.php(552): WP_Customize_Manager->wp_die(0, 'Non-existent ch...')
+#6 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(286): WP_Customize_Manager->setup_theme('')
+#7 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#8 /home2/tidahora
+
+2019-09-21T17:06:19+00:00 CRITICAL Uncaught Error: Class 'TitanFramework' not found in /home2/tidahoracom/public_html/wp-content/plugins/adblock-notify-by-bweb/adblock-notify.php:96
+Stack trace:
+#0 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(286): an_enqueue_an_sripts('')
+#1 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /home2/tidahoracom/public_html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#3 /home2/tidahoracom/public_html/wp-includes/script-loader.php(2539): do_action('wp_enqueue_scri...')
+#4 /home2/tidahoracom/public_html/wp-includes/class-wp-customize-manager.php(455): wp_enqueue_scripts()
+#5 /home2/tidahoracom/public_html/wp-includes/class-wp-customize-manager.php(552): WP_Customize_Manager->wp_die(0, 'Non-existent ch...')
+#6 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(286): WP_Customize_Manager->setup_theme('')
+#7 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#8 /home2/tidahora
+
+2019-09-21T17:06:21+00:00 CRITICAL Uncaught Error: Class 'TitanFramework' not found in /home2/tidahoracom/public_html/wp-content/plugins/adblock-notify-by-bweb/adblock-notify.php:96
+Stack trace:
+#0 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(286): an_enqueue_an_sripts('')
+#1 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /home2/tidahoracom/public_html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#3 /home2/tidahoracom/public_html/wp-includes/script-loader.php(2539): do_action('wp_enqueue_scri...')
+#4 /home2/tidahoracom/public_html/wp-includes/class-wp-customize-manager.php(455): wp_enqueue_scripts()
+#5 /home2/tidahoracom/public_html/wp-includes/class-wp-customize-manager.php(552): WP_Customize_Manager->wp_die(0, 'Non-existent ch...')
+#6 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(286): WP_Customize_Manager->setup_theme('')
+#7 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#8 /home2/tidahora
+
+2019-09-21T17:09:44+00:00 CRITICAL Uncaught Error: Class 'TitanFramework' not found in /home2/tidahoracom/public_html/wp-content/plugins/adblock-notify-by-bweb/adblock-notify.php:96
+Stack trace:
+#0 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(286): an_enqueue_an_sripts('')
+#1 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /home2/tidahoracom/public_html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#3 /home2/tidahoracom/public_html/wp-includes/script-loader.php(2539): do_action('wp_enqueue_scri...')
+#4 /home2/tidahoracom/public_html/wp-includes/class-wp-customize-manager.php(455): wp_enqueue_scripts()
+#5 /home2/tidahoracom/public_html/wp-includes/class-wp-customize-manager.php(552): WP_Customize_Manager->wp_die(0, 'Non-existent ch...')
+#6 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(286): WP_Customize_Manager->setup_theme('')
+#7 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#8 /home2/tidahora
+
+2019-09-21T17:09:45+00:00 CRITICAL Uncaught Error: Class 'TitanFramework' not found in /home2/tidahoracom/public_html/wp-content/plugins/adblock-notify-by-bweb/adblock-notify.php:96
+Stack trace:
+#0 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(286): an_enqueue_an_sripts('')
+#1 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /home2/tidahoracom/public_html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#3 /home2/tidahoracom/public_html/wp-includes/script-loader.php(2539): do_action('wp_enqueue_scri...')
+#4 /home2/tidahoracom/public_html/wp-includes/class-wp-customize-manager.php(455): wp_enqueue_scripts()
+#5 /home2/tidahoracom/public_html/wp-includes/class-wp-customize-manager.php(552): WP_Customize_Manager->wp_die(0, 'Non-existent ch...')
+#6 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(286): WP_Customize_Manager->setup_theme('')
+#7 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#8 /home2/tidahora
+
+2019-09-21T17:12:32+00:00 CRITICAL Uncaught Error: Class 'TitanFramework' not found in /home2/tidahoracom/public_html/wp-content/plugins/adblock-notify-by-bweb/adblock-notify.php:96
+Stack trace:
+#0 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(286): an_enqueue_an_sripts('')
+#1 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /home2/tidahoracom/public_html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#3 /home2/tidahoracom/public_html/wp-includes/script-loader.php(2539): do_action('wp_enqueue_scri...')
+#4 /home2/tidahoracom/public_html/wp-includes/class-wp-customize-manager.php(455): wp_enqueue_scripts()
+#5 /home2/tidahoracom/public_html/wp-includes/class-wp-customize-manager.php(552): WP_Customize_Manager->wp_die(0, 'Non-existent ch...')
+#6 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(286): WP_Customize_Manager->setup_theme('')
+#7 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#8 /home2/tidahora
+
+2019-09-21T17:12:50+00:00 CRITICAL Uncaught Error: Class 'TitanFramework' not found in /home2/tidahoracom/public_html/wp-content/plugins/adblock-notify-by-bweb/adblock-notify.php:96
+Stack trace:
+#0 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(286): an_enqueue_an_sripts('')
+#1 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /home2/tidahoracom/public_html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#3 /home2/tidahoracom/public_html/wp-includes/script-loader.php(2539): do_action('wp_enqueue_scri...')
+#4 /home2/tidahoracom/public_html/wp-includes/class-wp-customize-manager.php(455): wp_enqueue_scripts()
+#5 /home2/tidahoracom/public_html/wp-includes/class-wp-customize-manager.php(552): WP_Customize_Manager->wp_die(0, 'Non-existent ch...')
+#6 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(286): WP_Customize_Manager->setup_theme('')
+#7 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#8 /home2/tidahora
+
+2019-09-21T17:13:02+00:00 CRITICAL Uncaught Error: Class 'TitanFramework' not found in /home2/tidahoracom/public_html/wp-content/plugins/adblock-notify-by-bweb/adblock-notify.php:96
+Stack trace:
+#0 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(286): an_enqueue_an_sripts('')
+#1 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /home2/tidahoracom/public_html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#3 /home2/tidahoracom/public_html/wp-includes/script-loader.php(2539): do_action('wp_enqueue_scri...')
+#4 /home2/tidahoracom/public_html/wp-includes/class-wp-customize-manager.php(455): wp_enqueue_scripts()
+#5 /home2/tidahoracom/public_html/wp-includes/class-wp-customize-manager.php(552): WP_Customize_Manager->wp_die(0, 'Non-existent ch...')
+#6 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(286): WP_Customize_Manager->setup_theme('')
+#7 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#8 /home2/tidahora
+
+2019-09-21T17:13:25+00:00 CRITICAL Uncaught Error: Class 'TitanFramework' not found in /home2/tidahoracom/public_html/wp-content/plugins/adblock-notify-by-bweb/adblock-notify.php:96
+Stack trace:
+#0 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(286): an_enqueue_an_sripts('')
+#1 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /home2/tidahoracom/public_html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#3 /home2/tidahoracom/public_html/wp-includes/script-loader.php(2539): do_action('wp_enqueue_scri...')
+#4 /home2/tidahoracom/public_html/wp-includes/class-wp-customize-manager.php(455): wp_enqueue_scripts()
+#5 /home2/tidahoracom/public_html/wp-includes/class-wp-customize-manager.php(552): WP_Customize_Manager->wp_die(0, 'Non-existent ch...')
+#6 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(286): WP_Customize_Manager->setup_theme('')
+#7 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#8 /home2/tidahora
+
+2019-09-21T17:13:27+00:00 CRITICAL Uncaught Error: Class 'TitanFramework' not found in /home2/tidahoracom/public_html/wp-content/plugins/adblock-notify-by-bweb/adblock-notify.php:96
+Stack trace:
+#0 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(286): an_enqueue_an_sripts('')
+#1 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /home2/tidahoracom/public_html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#3 /home2/tidahoracom/public_html/wp-includes/script-loader.php(2539): do_action('wp_enqueue_scri...')
+#4 /home2/tidahoracom/public_html/wp-includes/class-wp-customize-manager.php(455): wp_enqueue_scripts()
+#5 /home2/tidahoracom/public_html/wp-includes/class-wp-customize-manager.php(552): WP_Customize_Manager->wp_die(0, 'Non-existent ch...')
+#6 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(286): WP_Customize_Manager->setup_theme('')
+#7 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#8 /home2/tidahora
+
+2019-09-21T17:13:32+00:00 CRITICAL Uncaught Error: Class 'TitanFramework' not found in /home2/tidahoracom/public_html/wp-content/plugins/adblock-notify-by-bweb/adblock-notify.php:96
+Stack trace:
+#0 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(286): an_enqueue_an_sripts('')
+#1 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /home2/tidahoracom/public_html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#3 /home2/tidahoracom/public_html/wp-includes/script-loader.php(2539): do_action('wp_enqueue_scri...')
+#4 /home2/tidahoracom/public_html/wp-includes/class-wp-customize-manager.php(455): wp_enqueue_scripts()
+#5 /home2/tidahoracom/public_html/wp-includes/class-wp-customize-manager.php(552): WP_Customize_Manager->wp_die(0, 'Non-existent ch...')
+#6 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(286): WP_Customize_Manager->setup_theme('')
+#7 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#8 /home2/tidahora
+
+2019-09-21T17:13:33+00:00 CRITICAL Uncaught Error: Class 'TitanFramework' not found in /home2/tidahoracom/public_html/wp-content/plugins/adblock-notify-by-bweb/adblock-notify.php:96
+Stack trace:
+#0 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(286): an_enqueue_an_sripts('')
+#1 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /home2/tidahoracom/public_html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#3 /home2/tidahoracom/public_html/wp-includes/script-loader.php(2539): do_action('wp_enqueue_scri...')
+#4 /home2/tidahoracom/public_html/wp-includes/class-wp-customize-manager.php(455): wp_enqueue_scripts()
+#5 /home2/tidahoracom/public_html/wp-includes/class-wp-customize-manager.php(552): WP_Customize_Manager->wp_die(0, 'Non-existent ch...')
+#6 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(286): WP_Customize_Manager->setup_theme('')
+#7 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#8 /home2/tidahora
+
+2019-09-21T17:13:42+00:00 CRITICAL Uncaught Error: Class 'TitanFramework' not found in /home2/tidahoracom/public_html/wp-content/plugins/adblock-notify-by-bweb/adblock-notify.php:96
+Stack trace:
+#0 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(286): an_enqueue_an_sripts('')
+#1 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /home2/tidahoracom/public_html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#3 /home2/tidahoracom/public_html/wp-includes/script-loader.php(2539): do_action('wp_enqueue_scri...')
+#4 /home2/tidahoracom/public_html/wp-includes/class-wp-customize-manager.php(455): wp_enqueue_scripts()
+#5 /home2/tidahoracom/public_html/wp-includes/class-wp-customize-manager.php(552): WP_Customize_Manager->wp_die(0, 'Non-existent ch...')
+#6 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(286): WP_Customize_Manager->setup_theme('')
+#7 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#8 /home2/tidahora
+
+2019-09-21T17:13:50+00:00 CRITICAL Uncaught Error: Class 'TitanFramework' not found in /home2/tidahoracom/public_html/wp-content/plugins/adblock-notify-by-bweb/adblock-notify.php:96
+Stack trace:
+#0 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(286): an_enqueue_an_sripts('')
+#1 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /home2/tidahoracom/public_html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#3 /home2/tidahoracom/public_html/wp-includes/script-loader.php(2539): do_action('wp_enqueue_scri...')
+#4 /home2/tidahoracom/public_html/wp-includes/class-wp-customize-manager.php(455): wp_enqueue_scripts()
+#5 /home2/tidahoracom/public_html/wp-includes/class-wp-customize-manager.php(552): WP_Customize_Manager->wp_die(0, 'Non-existent ch...')
+#6 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(286): WP_Customize_Manager->setup_theme('')
+#7 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#8 /home2/tidahora
+
+2019-09-21T17:13:51+00:00 CRITICAL Uncaught Error: Class 'TitanFramework' not found in /home2/tidahoracom/public_html/wp-content/plugins/adblock-notify-by-bweb/adblock-notify.php:96
+Stack trace:
+#0 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(286): an_enqueue_an_sripts('')
+#1 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /home2/tidahoracom/public_html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#3 /home2/tidahoracom/public_html/wp-includes/script-loader.php(2539): do_action('wp_enqueue_scri...')
+#4 /home2/tidahoracom/public_html/wp-includes/class-wp-customize-manager.php(455): wp_enqueue_scripts()
+#5 /home2/tidahoracom/public_html/wp-includes/class-wp-customize-manager.php(552): WP_Customize_Manager->wp_die(0, 'Non-existent ch...')
+#6 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(286): WP_Customize_Manager->setup_theme('')
+#7 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#8 /home2/tidahora
+
+2019-09-21T17:21:38+00:00 CRITICAL Uncaught Error: Class 'TitanFramework' not found in /home2/tidahoracom/public_html/wp-content/plugins/adblock-notify-by-bweb/adblock-notify.php:96
+Stack trace:
+#0 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(286): an_enqueue_an_sripts('')
+#1 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /home2/tidahoracom/public_html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#3 /home2/tidahoracom/public_html/wp-includes/script-loader.php(2539): do_action('wp_enqueue_scri...')
+#4 /home2/tidahoracom/public_html/wp-includes/class-wp-customize-manager.php(455): wp_enqueue_scripts()
+#5 /home2/tidahoracom/public_html/wp-includes/class-wp-customize-manager.php(552): WP_Customize_Manager->wp_die(0, 'Non-existent ch...')
+#6 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(286): WP_Customize_Manager->setup_theme('')
+#7 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#8 /home2/tidahora
+
+2019-09-21T17:21:56+00:00 CRITICAL Uncaught Error: Class 'TitanFramework' not found in /home2/tidahoracom/public_html/wp-content/plugins/adblock-notify-by-bweb/adblock-notify.php:96
+Stack trace:
+#0 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(286): an_enqueue_an_sripts('')
+#1 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /home2/tidahoracom/public_html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#3 /home2/tidahoracom/public_html/wp-includes/script-loader.php(2539): do_action('wp_enqueue_scri...')
+#4 /home2/tidahoracom/public_html/wp-includes/class-wp-customize-manager.php(455): wp_enqueue_scripts()
+#5 /home2/tidahoracom/public_html/wp-includes/class-wp-customize-manager.php(552): WP_Customize_Manager->wp_die(0, 'Non-existent ch...')
+#6 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(286): WP_Customize_Manager->setup_theme('')
+#7 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#8 /home2/tidahora
+
+2019-09-21T17:22:02+00:00 CRITICAL Uncaught Error: Class 'TitanFramework' not found in /home2/tidahoracom/public_html/wp-content/plugins/adblock-notify-by-bweb/adblock-notify.php:96
+Stack trace:
+#0 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(286): an_enqueue_an_sripts('')
+#1 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /home2/tidahoracom/public_html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#3 /home2/tidahoracom/public_html/wp-includes/script-loader.php(2539): do_action('wp_enqueue_scri...')
+#4 /home2/tidahoracom/public_html/wp-includes/class-wp-customize-manager.php(455): wp_enqueue_scripts()
+#5 /home2/tidahoracom/public_html/wp-includes/class-wp-customize-manager.php(552): WP_Customize_Manager->wp_die(0, 'Non-existent ch...')
+#6 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(286): WP_Customize_Manager->setup_theme('')
+#7 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#8 /home2/tidahora
+
+2019-09-21T17:37:30+00:00 CRITICAL Uncaught Error: Class 'TitanFramework' not found in /home2/tidahoracom/public_html/wp-content/plugins/adblock-notify-by-bweb/adblock-notify.php:96
+Stack trace:
+#0 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(286): an_enqueue_an_sripts('')
+#1 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /home2/tidahoracom/public_html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#3 /home2/tidahoracom/public_html/wp-includes/script-loader.php(2539): do_action('wp_enqueue_scri...')
+#4 /home2/tidahoracom/public_html/wp-includes/class-wp-customize-manager.php(455): wp_enqueue_scripts()
+#5 /home2/tidahoracom/public_html/wp-includes/class-wp-customize-manager.php(552): WP_Customize_Manager->wp_die(0, 'Non-existent ch...')
+#6 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(286): WP_Customize_Manager->setup_theme('')
+#7 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#8 /home2/tidahora
+
+2019-09-21T17:38:30+00:00 CRITICAL Uncaught Error: Class 'TitanFramework' not found in /home2/tidahoracom/public_html/wp-content/plugins/adblock-notify-by-bweb/adblock-notify.php:96
+Stack trace:
+#0 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(286): an_enqueue_an_sripts('')
+#1 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /home2/tidahoracom/public_html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#3 /home2/tidahoracom/public_html/wp-includes/script-loader.php(2539): do_action('wp_enqueue_scri...')
+#4 /home2/tidahoracom/public_html/wp-includes/class-wp-customize-manager.php(455): wp_enqueue_scripts()
+#5 /home2/tidahoracom/public_html/wp-includes/class-wp-customize-manager.php(552): WP_Customize_Manager->wp_die(0, 'Non-existent ch...')
+#6 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(286): WP_Customize_Manager->setup_theme('')
+#7 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#8 /home2/tidahora
+
+2019-09-21T17:39:30+00:00 CRITICAL Uncaught Error: Class 'TitanFramework' not found in /home2/tidahoracom/public_html/wp-content/plugins/adblock-notify-by-bweb/adblock-notify.php:96
+Stack trace:
+#0 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(286): an_enqueue_an_sripts('')
+#1 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /home2/tidahoracom/public_html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#3 /home2/tidahoracom/public_html/wp-includes/script-loader.php(2539): do_action('wp_enqueue_scri...')
+#4 /home2/tidahoracom/public_html/wp-includes/class-wp-customize-manager.php(455): wp_enqueue_scripts()
+#5 /home2/tidahoracom/public_html/wp-includes/class-wp-customize-manager.php(552): WP_Customize_Manager->wp_die(0, 'Non-existent ch...')
+#6 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(286): WP_Customize_Manager->setup_theme('')
+#7 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#8 /home2/tidahora
+
+2019-09-21T17:40:31+00:00 CRITICAL Uncaught Error: Class 'TitanFramework' not found in /home2/tidahoracom/public_html/wp-content/plugins/adblock-notify-by-bweb/adblock-notify.php:96
+Stack trace:
+#0 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(286): an_enqueue_an_sripts('')
+#1 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /home2/tidahoracom/public_html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#3 /home2/tidahoracom/public_html/wp-includes/script-loader.php(2539): do_action('wp_enqueue_scri...')
+#4 /home2/tidahoracom/public_html/wp-includes/class-wp-customize-manager.php(455): wp_enqueue_scripts()
+#5 /home2/tidahoracom/public_html/wp-includes/class-wp-customize-manager.php(552): WP_Customize_Manager->wp_die(0, 'Non-existent ch...')
+#6 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(286): WP_Customize_Manager->setup_theme('')
+#7 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#8 /home2/tidahora
+
+2019-09-23T09:15:45+00:00 CRITICAL Uncaught Error: Class 'TitanFramework' not found in /home2/tidahoracom/public_html/wp-content/plugins/adblock-notify-by-bweb/adblock-notify.php:96
+Stack trace:
+#0 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(286): an_enqueue_an_sripts('')
+#1 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#2 /home2/tidahoracom/public_html/wp-includes/plugin.php(465): WP_Hook->do_action(Array)
+#3 /home2/tidahoracom/public_html/wp-includes/script-loader.php(2539): do_action('wp_enqueue_scri...')
+#4 /home2/tidahoracom/public_html/wp-includes/class-wp-customize-manager.php(455): wp_enqueue_scripts()
+#5 /home2/tidahoracom/public_html/wp-includes/class-wp-customize-manager.php(552): WP_Customize_Manager->wp_die(0, 'Non-existent ch...')
+#6 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(286): WP_Customize_Manager->setup_theme('')
+#7 /home2/tidahoracom/public_html/wp-includes/class-wp-hook.php(310): WP_Hook->apply_filters('', Array)
+#8 /home2/tidahora
+
