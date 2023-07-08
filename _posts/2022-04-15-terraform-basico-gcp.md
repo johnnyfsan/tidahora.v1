@@ -1,14 +1,11 @@
 ---
+layout: post
 title: 'Terraform: O que é e como começar provisionando uma instância Linux no GCP'
 date: '2022-04-15T20:54:14-03:00'
-status: publish
 permalink: /terraform-o-que-e-e-como-comecar-provisionando-uma-instancia-linux-no-gcp
 author: 'Johnny Ferreira'
 thumbnail-img: /uploads/2022/04/terraformgcp.png
 share-img: /uploads/2022/04/terraformgcp.png
-category:
-    - DevOps
-    - Terraform
 tag:
     - 'aprender terraform'
     - 'instancia linux no gcp com terraform'
