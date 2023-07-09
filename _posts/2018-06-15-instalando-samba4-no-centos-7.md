@@ -573,16 +573,52 @@ Valid starting     Expires            Service principal
 O primeiro host que iremos ingressar em nosso domínio, será o host onde iremos instalar o RSAT da Microsoft para gerenciar os recursos do controlador de domínio.  
 Nesse tutorial estarei utilizando um Windows 7, mas funciona com Windows 8 e Windows 10 normalmente.
 
-O primeiro passo para ingressar o host no domínio, é ajustar o DNS do mesmo, para isso abra as configurações de rede do Windows e adicione o IP do seu servidor Samba 4 nos ajustes de DNS do Windows.[![](/assets/img/uploads/2018/06/samba4-centos-7-ad-1.png)](/assets/img/uploads/2018/06/samba4-centos-7-ad-1.png)Clique com o botão direito do mouse sobre o ícone **“Meu Computador”** e vá em **“Propriedades”.**
+O primeiro passo para ingressar o host no domínio, é ajustar o DNS do mesmo, para isso abra as configurações de rede do Windows e adicione o IP do seu servidor Samba 4 nos ajustes de DNS do Windows.
 
-![](/assets/img/uploads/2018/06/samba4-centos-7-ad2.png)Ao abrir **“Propriedades”** clique em **“Alterar Configurações”**.  
-![](/assets/img/uploads/2018/06/samba4-centos-7-ad3.png)Depois na aba de “**Nome do Computador”** clique em **“Alterar”**.![](/assets/img/uploads/2018/06/samba4-centos-7-ad4.png)Coloque o nome do seu domínio conforme a imagem abaixo:![](/assets/img/uploads/2018/06/samba4-centos-7-ad5.png)Informe o Login de Administrator e a Senha, aquela que criamos na hora de provisionar o domínio.![](/assets/img/uploads/2018/06/samba4-centos-7-ad6.png)Após a confirmação do login e senha a maquina receberá uma mensagem de boas-vindas ao domínio.![](/assets/img/uploads/2018/06/samba4-centos-7-ad7.png)Será solicitado para reiniciar o host Windows, para aplicar as configurações do novo domínio.![](/assets/img/uploads/2018/06/samba4-centos-7-ad8.png)Clique em **“Fechar”** a janela de **“Propriedades”**.![](/assets/img/uploads/2018/06/samba4-centos-7-ad9.png)E reinicie o host clicando no botão **“Reiniciar Agora”.**[![](/assets/img/uploads/2018/06/samba4-centos-7-ad10.png)](/assets/img/uploads/2018/06/samba4-centos-7-ad10.png)
+[![](/assets/img/uploads/2018/06/samba4-centos-7-ad-1.png)](/assets/img/uploads/2018/06/samba4-centos-7-ad-1.png)
+
+Clique com o botão direito do mouse sobre o ícone **“Meu Computador”** e vá em **“Propriedades”.**
+
+![](/assets/img/uploads/2018/06/samba4-centos-7-ad2.png)
+
+Ao abrir **“Propriedades”** clique em **“Alterar Configurações”**.  
+![](/assets/img/uploads/2018/06/samba4-centos-7-ad3.png)
+
+Depois na aba de “**Nome do Computador”** clique em **“Alterar”**.
+
+![](/assets/img/uploads/2018/06/samba4-centos-7-ad4.png)
+
+Coloque o nome do seu domínio conforme a imagem abaixo:
+
+![](/assets/img/uploads/2018/06/samba4-centos-7-ad5.png)
+
+Informe o Login de Administrator e a Senha, aquela que criamos na hora de provisionar o domínio.
+
+![](/assets/img/uploads/2018/06/samba4-centos-7-ad6.png)
+
+Após a confirmação do login e senha a maquina receberá uma mensagem de boas-vindas ao domínio.
+
+![](/assets/img/uploads/2018/06/samba4-centos-7-ad7.png)
+
+Será solicitado para reiniciar o host Windows, para aplicar as configurações do novo domínio.
+
+![](/assets/img/uploads/2018/06/samba4-centos-7-ad8.png)
+
+Clique em **“Fechar”** a janela de **“Propriedades”**.
+
+![](/assets/img/uploads/2018/06/samba4-centos-7-ad9.png)
+
+E reinicie o host clicando no botão **“Reiniciar Agora”.**
+
+[![](/assets/img/uploads/2018/06/samba4-centos-7-ad10.png)](/assets/img/uploads/2018/06/samba4-centos-7-ad10.png)
 
 #### 1.10 Gerenciamento do Domínio com RSAT Microsoft
 
 Para que possamos gerenciar o domínio de uma maneira mais eficaz e precisa, vamos utilizar o host Windows que acabamos de ingressar, e também vamos precisar instalar a Ferramenta de Administração de Servidor Remoto da Microsoft.
 
-Faça login com o usuário “Administrator” do seu domínio na estação para gerenciamento do RSAT.[![](/assets/img/uploads/2018/06/samba4-centos-7-ad18.png)](/assets/img/uploads/2018/06/samba4-centos-7-ad18.png)
+Faça login com o usuário “Administrator” do seu domínio na estação para gerenciamento do RSAT.
+
+[![](/assets/img/uploads/2018/06/samba4-centos-7-ad18.png)](/assets/img/uploads/2018/06/samba4-centos-7-ad18.png)
 
 Acesse o link <https://www.microsoft.com/pt-br/download/details.aspx?id=7887> pelo seu navegador e faça o Download o RSAT.
 
@@ -600,23 +636,53 @@ Escolha a versão do sistema operacional que você está utilizando, no meu caso
 
 Após finalizar o Download vamos executar e instalar o complemento da Microsoft.
 
-![](/assets/img/uploads/2018/06/samba4-centos-7-ad13.png)Confirme a instalação da atualização de complemento.[![](/assets/img/uploads/2018/06/samba4-centos-7-ad14.png)](/assets/img/uploads/2018/06/samba4-centos-7-ad14.png) Aguarde a cópia do pacote.![](/assets/img/uploads/2018/06/samba4-centos-7-ad15.png)
+![](/assets/img/uploads/2018/06/samba4-centos-7-ad13.png)
+
+Confirme a instalação da atualização de complemento.
+
+[![](/assets/img/uploads/2018/06/samba4-centos-7-ad14.png)](/assets/img/uploads/2018/06/samba4-centos-7-ad14.png) 
+
+Aguarde a cópia do pacote.
+
+![](/assets/img/uploads/2018/06/samba4-centos-7-ad15.png)
 
 Confirme os termos.
 
-![](/assets/img/uploads/2018/06/samba4-centos-7-ad16.png)Aguarde a instalação.[![](/assets/img/uploads/2018/06/samba4-centos-7-ad17.png)](/assets/img/uploads/2018/06/samba4-centos-7-ad17.png)
+![](/assets/img/uploads/2018/06/samba4-centos-7-ad16.png)
 
-Após finalizar a instalação, vá em **Painel de Controle**[![](/assets/img/uploads/2018/06/samba4-centos-7-ad-19.png)](/assets/img/uploads/2018/06/samba4-centos-7-ad-19.png)
+Aguarde a instalação.
 
-Procure por **Programas e Recursos**[![](/assets/img/uploads/2018/06/samba4-centos-7-ad-19.1.png)](/assets/img/uploads/2018/06/samba4-centos-7-ad-19.1.png)
+[![](/assets/img/uploads/2018/06/samba4-centos-7-ad17.png)](/assets/img/uploads/2018/06/samba4-centos-7-ad17.png)
 
-Clique na opção **Habilitar e Desabilitar Recursos**[![](/assets/img/uploads/2018/06/samba4-centos-7-ad-19.2.png)](/assets/img/uploads/2018/06/samba4-centos-7-ad-19.2.png)
+Após finalizar a instalação, vá em **Painel de Controle**
 
-Vai abrir uma tela de Recursos Adicionais do Windows, vamos buscar pelo RSAT, que acabamos de instalar e em seguida vamos habilitar em nosso ambiente.[![](/assets/img/uploads/2018/06/samba4-centos-7-ad-19.3.png)](/assets/img/uploads/2018/06/samba4-centos-7-ad-19.3.png)
+[![](/assets/img/uploads/2018/06/samba4-centos-7-ad-19.png)](/assets/img/uploads/2018/06/samba4-centos-7-ad-19.png)
 
-Marque todos os ítens e sub-ítens na pasta RSAT.![](/assets/img/uploads/2018/06/samba4-centos-7-ad-19.5.png)Clique em **OK** e aguarde a ativação do RSAT no Windows.![](/assets/img/uploads/2018/06/samba4-centos-7-ad-19.4.png)Agora volte ao **Painel de Controle** do Windows.
+Procure por **Programas e Recursos**
 
-E procure por **Ferramentas Administrativas.**[![](/assets/img/uploads/2018/06/samba4-centos-7-ad20.png)](/assets/img/uploads/2018/06/samba4-centos-7-ad20.png)
+[![](/assets/img/uploads/2018/06/samba4-centos-7-ad-19.1.png)](/assets/img/uploads/2018/06/samba4-centos-7-ad-19.1.png)
+
+Clique na opção **Habilitar e Desabilitar Recursos**
+
+[![](/assets/img/uploads/2018/06/samba4-centos-7-ad-19.2.png)](/assets/img/uploads/2018/06/samba4-centos-7-ad-19.2.png)
+
+Vai abrir uma tela de Recursos Adicionais do Windows, vamos buscar pelo RSAT, que acabamos de instalar e em seguida vamos habilitar em nosso ambiente.
+
+[![](/assets/img/uploads/2018/06/samba4-centos-7-ad-19.3.png)](/assets/img/uploads/2018/06/samba4-centos-7-ad-19.3.png)
+
+Marque todos os ítens e sub-ítens na pasta RSAT.
+
+![](/assets/img/uploads/2018/06/samba4-centos-7-ad-19.5.png)
+
+Clique em **OK** e aguarde a ativação do RSAT no Windows.
+
+![](/assets/img/uploads/2018/06/samba4-centos-7-ad-19.4.png)
+
+Agora volte ao **Painel de Controle** do Windows.
+
+E procure por **Ferramentas Administrativas.**
+
+[![](/assets/img/uploads/2018/06/samba4-centos-7-ad20.png)](/assets/img/uploads/2018/06/samba4-centos-7-ad20.png)
 
 Veja que agora temos os ítens necessários para gerenciamento do domínio Active Directory, clique em **Usuários e Computadores do Active Directory**
 
@@ -632,8 +698,6 @@ Dúvidas, comentário e sugestões postem nos comentários…
 👋🏼 Valeu! e até a próxima!
 
 - - - - - -
-
-![](/assets/img/uploads/2017/11/foto-perfil-redondo-johnny.png)
 
 **Johnny Ferreira**  
 <johnny.ferreira.santos@gmail.com>  
