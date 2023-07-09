@@ -1,43 +1,21 @@
 ---
+layout: post
 title: 'Instalando Samba4 no CentOS 7'
-date: '2018-06-15T13:14:21-03:00'
-permalink: /instalando-samba4-no-centos-7
 author: 'Johnny Ferreira'
 thumbnail-img: /assets/img/uploads/2018/06/controlador-de-dominio-com-samba4-no-centos7-150x150.png
 share-img: /assets/img/uploads/2018/06/controlador-de-dominio-com-samba4-no-centos7-150x150.png
-
-tag:
-    - 'active directory linux samba 4'
-    - 'ad samba4 linux'
-    - 'configurar samba 4 active directory'
-    - 'configurar samba4 centos'
-    - 'configurar samba4 linux'
-    - 'configurar smb4 centos'
-    - 'configurar smb4 linux'
-    - 'instalando ad samba4'
-    - 'instalando samba4 centos'
-    - 'instalando samba4 centos 7'
-    - 'samba 4 tutorial'
-    - 'samba4 ad'
-    - 'samba4 centos'
-    - 'samba4 centos7'
-    - 'samba4 linux tutorial'
-    - 'smb4 ad'
-    - 'smb4 centos'
-    - 'smb4 centos7'
-    - 'smb4k
-
+tags: [active directory linux samba 4, ad samba4 linux, configurar samba 4 active directory, configurar samba4 centos, configurar samba4 linux, configurar smb4 centos, configurar smb4 linux, instalando ad samba4, instalando samba4 centos, instalando samba4 centos 7, samba 4 tutorial, samba4 ad, samba4 centos, samba4 centos7, samba4 linux tutorial, smb4 ad, smb4 centos, smb4 centos7]
 ---
 Opa, tudo bem? 😀  
 Hoje vamos implementar um Controlador de Domínio com Samba4, nosso ambiente Linux utilizado será o CentOS 7, nesse post estarei abordando a instalação do servidor PDC (Primary Domain Controller).
 
 ### Nosso ambiente de configuração será o seguinte:
 
-**Sistema Operacional:** CentOS 7 CentOS Linux release 7.5.1804)**  
+**Sistema Operacional:** CentOS 7 CentOS Linux release 7.5.1804)  
 **Diretório de Instalação:** /usr/local/samba
 
 **Hostname DC 1:** DC01  
-**IP DC 1 (Master):** 10.1.0.89** "Domain Name System"
+**IP DC 1 (Master):** 10.1.0.89 "Domain Name System"
 DNS Domain:** TIDAHORA.LOCAL  
 **NT4 Domain:** TIDAHORA.LOCAL  
 **Função:** Controlador de Domínio e DNS.
@@ -110,7 +88,9 @@ reboot
 
 #### 1.2 Instalando as Dependências
 
-<div class="level3">Instale as dependências abaixo, para podermos compilarmos o código fonte do samba 4 no ambiente do CentOS 7.</div>```
+Instale as dependências abaixo, para podermos compilarmos o código fonte do samba 4 no ambiente do CentOS 7.
+
+```
 yum -y install git gcc make wget  libacl-devel libblkid-devel gnutls-devel readline-devel python-devel pam-devel gdb openldap-devel bind-utils libacl-devel libblkid-devel gnutls-devel readline-devel python-devel gdb pkgconfig krb5-workstation zlib-devel setroubleshoot-server setroubleshoot-plugins policycoreutils-python libsemanage-python setools-libs-python setools-libs popt-devel libpcap-devel sqlite-devel libidn-devel libxml2-devel libacl-devel libsepol-devel libattr-devel keyutils-libs-devel cyrus-sasl-devel cups-devel
 ```
 
@@ -595,7 +575,7 @@ Nesse tutorial estarei utilizando um Windows 7, mas funciona com Windows 8 e Win
 
 O primeiro passo para ingressar o host no domínio, é ajustar o DNS do mesmo, para isso abra as configurações de rede do Windows e adicione o IP do seu servidor Samba 4 nos ajustes de DNS do Windows.[![](/assets/img/uploads/2018/06/samba4-centos-7-ad-1.png)](/assets/img/uploads/2018/06/samba4-centos-7-ad-1.png)Clique com o botão direito do mouse sobre o ícone **“Meu Computador”** e vá em **“Propriedades”.**
 
-</div>![](/assets/img/uploads/2018/06/samba4-centos-7-ad2.png)Ao abrir **“Propriedades”** clique em **“Alterar Configurações”**.  
+![](/assets/img/uploads/2018/06/samba4-centos-7-ad2.png)Ao abrir **“Propriedades”** clique em **“Alterar Configurações”**.  
 ![](/assets/img/uploads/2018/06/samba4-centos-7-ad3.png)Depois na aba de “**Nome do Computador”** clique em **“Alterar”**.![](/assets/img/uploads/2018/06/samba4-centos-7-ad4.png)Coloque o nome do seu domínio conforme a imagem abaixo:![](/assets/img/uploads/2018/06/samba4-centos-7-ad5.png)Informe o Login de Administrator e a Senha, aquela que criamos na hora de provisionar o domínio.![](/assets/img/uploads/2018/06/samba4-centos-7-ad6.png)Após a confirmação do login e senha a maquina receberá uma mensagem de boas-vindas ao domínio.![](/assets/img/uploads/2018/06/samba4-centos-7-ad7.png)Será solicitado para reiniciar o host Windows, para aplicar as configurações do novo domínio.![](/assets/img/uploads/2018/06/samba4-centos-7-ad8.png)Clique em **“Fechar”** a janela de **“Propriedades”**.![](/assets/img/uploads/2018/06/samba4-centos-7-ad9.png)E reinicie o host clicando no botão **“Reiniciar Agora”.**[![](/assets/img/uploads/2018/06/samba4-centos-7-ad10.png)](/assets/img/uploads/2018/06/samba4-centos-7-ad10.png)
 
 #### 1.10 Gerenciamento do Domínio com RSAT Microsoft
