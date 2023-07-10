@@ -6,6 +6,8 @@ thumbnail-img: /assets/img/uploads/2018/06/controlador-de-dominio-com-samba4-no-
 share-img: /assets/img/uploads/2018/06/controlador-de-dominio-com-samba4-no-centos7-150x150.png
 tags: [active directory linux samba 4, ad samba4 linux, configurar samba 4 active directory, configurar samba4 centos, configurar samba4 linux, configurar smb4 centos, configurar smb4 linux, instalando ad samba4, instalando samba4 centos, instalando samba4 centos 7, samba 4 tutorial, samba4 ad, samba4 centos, samba4 centos7, samba4 linux tutorial, smb4 ad, smb4 centos, smb4 centos7]
 ---
+- - - - - -
+
 Opa, tudo bem? 😀  
 Hoje vamos implementar um Controlador de Domínio com Samba4, nosso ambiente Linux utilizado será o CentOS 7, nesse post estarei abordando a instalação do servidor PDC (Primary Domain Controller).
 

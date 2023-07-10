@@ -7,6 +7,7 @@ share-img: /assets/img/aws-iam.png
 tags: [aws, iam, devops, cloud, amazon web services]
 comments: true
 ---
+- - - - - -
 
 # Como Funciona o IAM na AWS
 
