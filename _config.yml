@@ -21,9 +21,6 @@ author: "Johnny Ferreira"
 
 navbar-links:
 #  Perfil: "aboutme"
- # Resources:
- #   - Beautiful Jekyll: "https://beautifuljekyll.com"
- #   - Learn markdown: "https://www.markdowntutorial.com/"
   LinkedIn: "https://linkedin.com/in/johnnyferreiradossantos"
 
 ################
@@ -113,7 +110,7 @@ edit_page_button: false
 navbar-var-length: false
 
 # The keywords to associate with your website, for SEO purposes
-#keywords: "my,list,of,keywords"
+keywords: "linux, devops, cloud, tecnologia, infraestrutura, docker, aws, amazon web services, terraform, gcp, google cloud platform"
 
 ######################################
 # --- Colours / background image --- #
