@@ -232,6 +232,7 @@ Conteúdo:
 .uol.
 ```
 
+
 ```
 sudo vim /etc/squid/regras/sites_bloqueados
 ```
@@ -247,6 +248,7 @@ Criando o cache:
 ```
 sudo chmod -Rf 774 /var/spool/squid
 ```
+
 
 ```
 sudo squid -z
@@ -328,6 +330,7 @@ echo 1 >> /proc/sys/net/ipv4/ip_forward
 
 ![]( /assets/img/uploads/2017/12/servidor-squid-proxy-ubuntu-18.png) 
 
+
 #### PASSO 6: TESTANDO O SERVIDOR SQUID PROXY NO UBUNTU LINUX
 
 Ajuste o endereço IP do servidor nas configurações de Proxy do navegador.
@@ -340,7 +343,11 @@ sudo ifconfig
 
 Abra o Firefox e siga os passos abaixo:
 
-![]( /assets/img/uploads/2017/12/servidor-squid-proxy-ubuntu-19.png) ![]( /assets/img/uploads/2017/12/servidor-squid-proxy-ubuntu-20.png) ![]( /assets/img/uploads/2017/12/servidor-squid-proxy-ubuntu-21.png) 
+![]( /assets/img/uploads/2017/12/servidor-squid-proxy-ubuntu-19.png) 
+
+![]( /assets/img/uploads/2017/12/servidor-squid-proxy-ubuntu-20.png) 
+
+![]( /assets/img/uploads/2017/12/servidor-squid-proxy-ubuntu-21.png) 
 
 Feche as configurações e o navegador e abra-o novamente.
 
