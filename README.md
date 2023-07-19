@@ -1,3 +1,3 @@
 # TI da Hora!
 
-**Apenas um blog de tecnologia qualquer**
+**Apenas um blog qualquer de tecnologia**
