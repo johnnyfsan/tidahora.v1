@@ -18,7 +18,7 @@ Hoje vamos implementar um Controlador de Domínio com Samba4, nosso ambiente Lin
 
 **Hostname DC 1:** DC01  
 **IP DC 1 (Master):** 10.1.0.89 "Domain Name System"
-DNS Domain:** TIDAHORA.LOCAL  
+**DNS Domain:** TIDAHORA.LOCAL  
 **NT4 Domain:** TIDAHORA.LOCAL  
 **Função:** Controlador de Domínio e DNS.
 
