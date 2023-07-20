@@ -117,6 +117,6 @@ Dúvidas, comentário e sugestões postem nos comentários… 👋🏼 Até a pr
 - - - - - -
 
 ![](/assets/img/uploads/2019/02/foto-redonda.png)
-**Johnny Ferreira**
-<johnny.ferreira.santos@gmail.com>
-<http://www.tidahora.com.br>
+**Johnny Ferreira**  
+<johnny.ferreira.santos@gmail.com>  
+<http://www.tidahora.com.br>  
