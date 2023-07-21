@@ -2,8 +2,8 @@
 layout: post
 title: 'Instalando Samba4 no CentOS 7'
 author: 'Johnny Ferreira'
-thumbnail-img: /assets/img/uploads/2018/06/controlador-de-dominio-com-samba4-no-centos7-150x150.png
-share-img: /assets/img/uploads/2018/06/controlador-de-dominio-com-samba4-no-centos7-150x150.png
+thumbnail-img: /assets/img/uploads/2018/06/controlador-de-dominio-com-samba4-no-centos7.png
+share-img: /assets/img/uploads/2018/06/controlador-de-dominio-com-samba4-no-centos7.png
 tags: [active directory linux samba 4, ad samba4 linux, configurar samba 4 active directory, configurar samba4 centos, configurar samba4 linux, configurar smb4 centos, configurar smb4 linux, instalando ad samba4, instalando samba4 centos, instalando samba4 centos 7, samba 4 tutorial, samba4 ad, samba4 centos, samba4 centos7, samba4 linux tutorial, smb4 ad, smb4 centos, smb4 centos7]
 ---
 - - - - - -
@@ -17,7 +17,7 @@ Hoje vamos implementar um Controlador de Domínio com Samba4, nosso ambiente Lin
 **Diretório de Instalação:** /usr/local/samba
 
 **Hostname DC 1:** DC01  
-**IP DC 1 (Master):** 10.1.0.89 "Domain Name System"
+**IP DC 1 (Master):** 10.1.0.89 "Domain Name System"  
 **DNS Domain:** TIDAHORA.LOCAL  
 **NT4 Domain:** TIDAHORA.LOCAL  
 **Função:** Controlador de Domínio e DNS.
