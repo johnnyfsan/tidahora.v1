@@ -1,14 +1,9 @@
 ---
 title: 'Recuperar a senha de root no MySQL Server [Linux]'
 date: '2018-01-31T15:27:48-02:00'
-status: publish
-permalink: /recuperar-a-senha-de-root-no-mysql-server-linux
-author: 'Johnny Ferreira'
 type: post
-thumbnail: /assets/img/uploads/2018/01/recuperar-senha-de-root-no-mysql-server-linux-150x150.png
-category:
-    - 'Dicas de Linux'
-    - Linux
+thumbnail-img: /assets/img/uploads/2018/01/recuperar-senha-de-root-no-mysql-server-linux-248x138.png
+share-img: /assets/img/uploads/2018/01/recuperar-senha-de-root-no-mysql-server-linux-248x138.png
 tag:
     - 'mysql senha recuperar'
     - 'recovery mysql password'
