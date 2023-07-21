@@ -2,8 +2,8 @@
 title: 'Conhecendo e Utilizando o GIT'
 date: '2018-04-02T13:59:13-03:00'
 type: post
-thumbnail-img: /assets/img/uploads/2018/04/conhecendo-e-utilizando-o-git-150x150.png
-share-img: /assets/img/uploads/2018/04/conhecendo-e-utilizando-o-git-150x150.png
+thumbnail-img: /assets/img/uploads/2018/04/conhecendo-e-utilizando-o-git.png
+share-img: /assets/img/uploads/2018/04/conhecendo-e-utilizando-o-git.png
 tag:
     - 'aprenda git'
     - 'aprender usar o git'
