@@ -1,16 +1,9 @@
 ---
 title: 'Recuperar a senha de root no MySQL Server [Linux]'
 date: '2018-01-31T15:27:48-02:00'
-status: publish
-permalink: /recuperar-a-senha-de-root-no-mysql-server-linux
-author: 'Johnny Ferreira'
-excerpt: ''
 type: post
-id: 453
-thumbnail: ../uploads/2018/01/recuperar-senha-de-root-no-mysql-server-linux-150x150.png
-category:
-    - 'Dicas de Linux'
-    - Linux
+thumbnail-img: /assets/img/uploads/2018/01/recuperar-senha-de-root-no-mysql-server-linux-248x138.png
+share-img: /assets/img/uploads/2018/01/recuperar-senha-de-root-no-mysql-server-linux-248x138.png
 tag:
     - 'mysql senha recuperar'
     - 'recovery mysql password'
@@ -21,18 +14,9 @@ tag:
     - 'redefinir mysql root'
     - 'redefinir senha mysql'
     - 'senha root mysql'
-post_format: []
-_yoast_wpseo_content_score:
-    - '60'
-_yoast_wpseo_primary_category:
-    - '4'
-_yoast_wpseo_focuskw:
-    - 'MySQL Server'
-_yoast_wpseo_metadesc:
-    - 'Veja aqui como redefinir de maneira simples e objetiva a senha do usuário root no MySQL Server, tutorial abordando os sistemas Debian e CentOS.'
-_yoast_wpseo_linkdex:
-    - '82'
 ---
+- - - - - -
+
 Opa, beleza? As vezes temos alguns problemas com a senha do usuário “root” no MySQL Server, ou esquecemos, ou simplesmente precisamos recuperar a senha que foi implementada por outro profissional de TI. Por esse motivo resolvi compartilhar com você esse tutorial.
 
 A primeira coisa a se fazer para recuperar a senha do “root” é parar o serviço do MySQL Server no servidor ou host Linux.
@@ -133,7 +117,7 @@ systemctl restart mysqld
 Agora pode logar novamente com o root e a senha que você definiu.
 
 ```
-<pre class="lang:sh decode:true code bash">mysql -u root -psenha
+mysql -u root -psenha
 ```
 
 Dúvidas, comentário e sugestões postem nos comentários…  
