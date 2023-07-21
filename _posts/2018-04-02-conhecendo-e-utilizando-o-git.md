@@ -17,6 +17,7 @@ tag:
 ---
 
 - - - - - -
+
 Opa, tudo bem? 🙂 Hoje vamos estar Conhecendo e Utilizando o GIT em ambientes Linux.  
 O GIT é um sistema de controle de versão distribuído, que atua também como um sistema de gerenciamento de código fonte para milhares de desenvolvedores no mundo a fora.  
 O Projeto foi desenvolvido por Linus Torvalds para o desenvolvimento do poderoso Kernel do sistema Linux. Hoje é utilizado em muitos projetos.
