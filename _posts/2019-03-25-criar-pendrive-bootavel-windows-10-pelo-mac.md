@@ -74,7 +74,7 @@ Dúvidas, comentário e sugestões postem nos comentários…
 
 - - - - - -
 
-![](/assets/img/uploads/2019/02/foto-redonda.png  
+![](/assets/img/uploads/2019/02/foto-redonda.png)  
 **Johnny Ferreira**  
 <johnny.ferreira.santos@gmail.com>  
 <http://www.tidahora.com.br>
