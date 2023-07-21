@@ -246,7 +246,7 @@ timezone: "America/Sao_Paulo"
 markdown: kramdown
 highlighter: rouge
 permalink: /:title/
-paginate: 5
+paginate: 10
 
 kramdown:
   input: GFM
