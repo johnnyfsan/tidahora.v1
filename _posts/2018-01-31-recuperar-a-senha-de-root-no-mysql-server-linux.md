@@ -21,6 +21,7 @@ tag:
     - 'senha root mysql'
 ---
 - - - - - -
+
 Opa, beleza? As vezes temos alguns problemas com a senha do usuário “root” no MySQL Server, ou esquecemos, ou simplesmente precisamos recuperar a senha que foi implementada por outro profissional de TI. Por esse motivo resolvi compartilhar com você esse tutorial.
 
 A primeira coisa a se fazer para recuperar a senha do “root” é parar o serviço do MySQL Server no servidor ou host Linux.
