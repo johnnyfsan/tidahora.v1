@@ -17,6 +17,7 @@ tag:
 ---
 
 - - - - - -
+
 Tutorial de como criar um pendrive bootável do Windows 10 pelo Mac OS Mojave, Mac OS High Sierra ou Mac OS Sierra.
 
 Criar um pendrive bootável pelo Mac pode parecer difícil certo? Mas é muito mais simples do que se imagina. Acompanhe.
