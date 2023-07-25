@@ -24,7 +24,11 @@ tag:
 
 Opa, tudo certo? 🙂 Hoje vou mostrar como instalar o Bacula Backup no CentOS 7.
 
-O Bacula é uma das melhores ferramentas de Backup Open Source, aliado a um sistema operacional de confiança como CentOS 7 que tem sua base no Red Hat, conseguimos obter confiança, bom desempenho e economia, não precisando desembolsar valores absurdos por uma ferramenta que talvez nem atenda as necessidades de um cliente ou de determinado projeto.[![Instalando o Bacula Backup no CentOS 7](/assets/img/uploads/2018/03/bacula2.png "Instalando o Bacula Backup no CentOS 7")](/assets/img/uploads/2018/03/bacula2.png)Irei abordar somente a configuração do servidor de backup com Bacula.
+O Bacula é uma das melhores ferramentas de Backup Open Source, aliado a um sistema operacional de confiança como CentOS 7 que tem sua base no Red Hat, conseguimos obter confiança, bom desempenho e economia, não precisando desembolsar valores absurdos por uma ferramenta que talvez nem atenda as necessidades de um cliente ou de determinado projeto.
+
+[![Instalando o Bacula Backup no CentOS 7](/assets/img/uploads/2018/03/bacula2.png "Instalando o Bacula Backup no CentOS 7")](/assets/img/uploads/2018/03/bacula2.png)
+
+Irei abordar somente a configuração do servidor de backup com Bacula.
 
 Iremos realizar no tutorial as tarefas abaixo:
 
