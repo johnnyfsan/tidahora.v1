@@ -2,8 +2,8 @@
 title: 'Instalando Servidor OpenVPN no CentOS 6'
 date: '2019-02-13T13:57:56-02:00'
 type: post
-thumbnail-img: /assets/img/uploads/2019/02/Instalando-Servidor-OpenVPN-no-CentOS-6.png
-share-img: /assets/img/uploads/2019/02/Instalando-Servidor-OpenVPN-no-CentOS-6.png
+thumbnail-img: /assets/img/uploads/2019/02/Instalando-Servidor-OpenVPN-no-CentOS-6-250x250.png
+share-img: /assets/img/uploads/2019/02/Instalando-Servidor-OpenVPN-no-CentOS-6-250x250.png
 tag:
     - 'configurar openvpn centos'
     - 'instalar openvpn linux'
@@ -28,7 +28,8 @@ Disponível para clientes:
 
 **Site Oficial do OpenVPN:**<http://openvpn.net/>
 
-1. Configurações Iniciais
+
+### 1. Configurações Iniciais
 -------------------------
 
 Alterar o Hostname do Servidor.
@@ -58,14 +59,16 @@ Reinicie para validar as alterações.
 reboot
 ```
 
-2. Instalando os pacotes necessários
+
+### 2. Instalando os pacotes necessários
 ------------------------------------
 
 ```
 yum -y install gcc make rpm-build autoconf.noarch zlib-devel pam-devel openssl-devel wget
 ```
 
-3. Download da LZO RPM e Instalando repositório RPMForge
+
+### 3. Download da LZO RPM e Instalando repositório RPMForge
 --------------------------------------------------------
 
 ```
@@ -84,14 +87,16 @@ rpm -Uvh lzo-*.rpm
 rpm -Uvh rpmforge-release*
 ```
 
-5. Instalando o OpenVPN
+
+### 4. Instalando o OpenVPN
 -----------------------
 
 ```
 yum -y install openvpn
 ```
 
-6. Ajustando o OpenVPN
+
+### 5. Ajustando o OpenVPN
 ----------------------
 
 Um ajuste a ser realizado após a instalação do pacote ‘openvpn’.  
@@ -121,7 +126,8 @@ export KEY_CONFIG=/etc/openvpn/easy-rsa/2.0/openssl-1.0.0.cnf
 
 Não esqueça de salvar o arquivo após a alteração.
 
-7. Gerando certificados
+
+### 6. Gerando certificados
 -----------------------
 
 ```
@@ -202,7 +208,8 @@ This is going to take a long time
 .........................................+.................+.......+.....+....
 ```
 
-8. Criando o arquivo de configuração
+
+### 7. Criando o arquivo de configuração
 ------------------------------------
 
 ```
@@ -237,7 +244,8 @@ status 1194.log
 verb 3
 ```
 
-9. Iniciando o OpenVPN
+
+### 8. Iniciando o OpenVPN
 ----------------------
 
 ```
@@ -265,7 +273,8 @@ Rode o comando abaixo para validar as alterações no ‘ip\_forward’.
 sysctl -p
 ```
 
-10. Configurando clientes
+
+### 9. Configurando clientes
 -------------------------
 
 Vamos efetuar a configuração de um cliente para a conexão VPN.
@@ -307,7 +316,8 @@ Desligando o openvpn:                                      [  OK  ]
 Iniciando o openvpn:                                       [  OK  ]
 ```
 
-11. Ajustando o Firewall
+
+### 10. Ajustando o Firewall
 ------------------------
 
 As configurações de firewall são de necessidade obrigatória para a configuração correta do OpenVPN. Abaixo segue as regras de iptables para liberação da conexão VPN, lembrando assim que em cada firewall terá de ser configurado a modo do administrador de redes conforme IP, políticas de acessos, etc.
@@ -318,7 +328,8 @@ iptables -t nat -A POSTROUTING -o venet0 -j SNAT --to-source 120.120.120.120
 iptables -t nat -A POSTROUTING -s 10.20.0.0/24 -j SNAT --to-source 120.120.120.120  
 ```
 
-12. Ajustando o cliente para conectar a VPN
+
+### 11. Ajustando o cliente para conectar a VPN
 -------------------------------------------
 
 Faça o Download do client no link abaixo:  
