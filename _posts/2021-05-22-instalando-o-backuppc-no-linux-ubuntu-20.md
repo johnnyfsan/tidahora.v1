@@ -90,7 +90,7 @@ Informação sobre o acesso ao serviço do BackupPC, clique em OK:
 ![](/assets/img/uploads/2021/05/4.png)
 
 
-3. Alterando a senha padrão de acesso ao BackupPC
+### 3. Alterando a senha padrão de acesso ao BackupPC
 -------------------------------------------------
 
 Vamos alterar a senha default/padrão que vem com as configurações do BackupPC.
@@ -117,7 +117,7 @@ Updating password for user backuppc
 
 - - - - - -
 
-4. Ajustando o serviço do BackupPC no Linux
+### 4. Ajustando o serviço do BackupPC no Linux
 -------------------------------------------
 
 Vamos ajustar o serviço do BackupPC no Ubuntu para o mesmo iniciar junto ao boot do sistema operacional, assim não teremos problemas no futuro caso o servidor seja reiniciado por qualquer motivo.
@@ -167,7 +167,7 @@ May 22 11:46:51 ubuntu systemd[1]: Started LSB: Launch backuppc server.
 
 - - - - - -
 
-5. Configurando o acesso SSH para os clientes de Backup
+### 5. Configurando o acesso SSH para os clientes de Backup
 -------------------------------------------------------
 
 Vamos ajustar o ssh do servidor de backup para poder se comunicar com os clientes de Backups via SSH / Rsync sem a necessidade de utilizar senhas.
@@ -260,7 +260,7 @@ and check to make sure that only the key(s) you wanted were added.
 ```
 
 
-6. Ajustando o SSH do Cliente de Backup
+### 6. Ajustando o SSH do Cliente de Backup
 ---------------------------------------
 
 Precisamos fazer mais um ajuste no serviço de SSH, só que dessa é do lado do cliente.
@@ -286,7 +286,8 @@ from="192.168.15.21",no-agent-forwarding,no-port-forwarding,no-pty
 
 Salve e feche seu arquivo após o ajuste acima.
 
-7. Configurando o Apache para o BackupPC
+
+### 7. Configurando o Apache para o BackupPC
 ----------------------------------------
 
 O BackupPC por padrão vem configurado para acesso somente para o localhost, vamos precisar ajustar isso para que nossa rede local possa acessar o serviço do BackupPC via web.
@@ -316,7 +317,7 @@ sudo systemctl restart apache2
 ```
 
 
-8. Acessando o BackupPC pela Interface Web
+### 8. Acessando o BackupPC pela Interface Web
 ------------------------------------------
 
 Abra seu navegador de preferência e digite o endereço abaixo:
