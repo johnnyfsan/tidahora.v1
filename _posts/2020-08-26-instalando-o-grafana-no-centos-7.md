@@ -19,7 +19,8 @@ Fala povo, bão? Tutorial de hoje mostra como instalar o poderoso Grafana no Cen
 
 O Grafana é uma aplicação web de análise de código aberto multiplataforma e visualização interativa da web. Ele fornece tabelas, gráficos e alertas para a Web quando conectado a fontes de dados suportadas. É expansível através de um sistema de plug-in.
 
-Fonte:[ Wikipédia](https://pt.wikipedia.org/wiki/Grafana)[![](/assets/img/uploads/2020/08/1200px-Grafana_logo.svg_.png)](/assets/img/uploads/2020/08/1200px-Grafana_logo.svg_.png)
+Fonte:[ Wikipédia](https://pt.wikipedia.org/wiki/Grafana)
+
 
 ##### Passo 1: Desabilitando o SELinux
 
@@ -57,6 +58,7 @@ SELINUXTYPE=targeted
 reboot
 ```
 
+
 ##### Passo 2: Configurando o repositório do Grafana
 
 O primeiro passo para instalação do Grafana é criar o repositório do mesmo: 
@@ -79,7 +81,10 @@ sslverify=1
 sslcacert=/etc/pki/tls/certs/ca-bundle.crt
 ```
 
-Salve o arquivo acima. ##### Passo 3: Instalando o Grafana
+Salve o arquivo acima. 
+
+
+##### Passo 3: Instalando o Grafana
 
 Agora vamos instalar o grafana: 
 
@@ -123,6 +128,7 @@ Retorno do comando acima:
            └─9541 /usr/sbin/grafana-server --config=/etc/grafana/grafana.ini --pidfile=/var/run/grafana/grafana-server.pid
 ```
 
+
 ##### Passo 4: Ajustando o Firewall
 
 Precisamos efetuar a liberação da porta 3000/TCP que é onde o Grafana irá responder as conexões de acesso web. 
@@ -136,6 +142,7 @@ Se o comando acima for executado com sucesso, vai receber no console um “succe
 ```
 firewall-cmd --reload
 ```
+
 
 ##### Passo 5: Acessando o Grafana pelo navegador
 
@@ -154,6 +161,7 @@ Ao efetuar o login pela primeira vez, será solicitado a troca da senha padrão,
 Após isso, você será redirecionado a tela principal do Grafana. 
 
 [![](/assets/img/uploads/2020/08/grafana-3.png)](/assets/img/uploads/2020/08/grafana-3.png)
+
 
 
 ##### Passo 6: Instalando Plugin do Zabbix no Grafana
