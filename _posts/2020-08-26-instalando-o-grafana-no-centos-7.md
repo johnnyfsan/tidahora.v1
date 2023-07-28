@@ -128,7 +128,7 @@ Retorno do comando acima:
            └─9541 /usr/sbin/grafana-server --config=/etc/grafana/grafana.ini --pidfile=/var/run/grafana/grafana-server.pid
 ```
 
-
+  
 ##### Passo 4: Ajustando o Firewall
 
 Precisamos efetuar a liberação da porta 3000/TCP que é onde o Grafana irá responder as conexões de acesso web. 
@@ -143,7 +143,7 @@ Se o comando acima for executado com sucesso, vai receber no console um “succe
 firewall-cmd --reload
 ```
 
-
+  
 ##### Passo 5: Acessando o Grafana pelo navegador
 
 Abra o seu navegador de preferência e digite o endereço IP do servidor seguido da porta 3000, por exemplo: http://endereco ip:3000 
@@ -163,7 +163,7 @@ Após isso, você será redirecionado a tela principal do Grafana.
 [![](/assets/img/uploads/2020/08/grafana-3.png)](/assets/img/uploads/2020/08/grafana-3.png)
 
 
-
+  
 ##### Passo 6: Instalando Plugin do Zabbix no Grafana
 
 Para que possamos ter ainda mais recursos no Grafana, é possível realizar a instalação de plugins, esses plugins facilitam a configuração e criação de Dashboards de serviços de monitoramento, como por exemplo, o plugin do Zabbix. 
